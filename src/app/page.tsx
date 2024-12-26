@@ -1,17 +1,19 @@
 "use client";
-import { motion } from "framer-motion";
+
+import Hero from "../components/Hero";
+import Navbar from "../components/Navbar";
+import PricingCards from "../components/PricingCards";
+import ServicesSection from "../components/ServicesSection";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
-    <div className="h-screen flex justify-center items-center bg-gray-100">
-      <motion.h1
-        className="text-4xl font-bold text-blue-500"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 1 }}
-      >
-        Hello, FramerMotion!
-      </motion.h1>
-    </div>
+    <>
+      <Navbar />
+      <Hero />
+      <ServicesSection />
+      <PricingCards />
+      <Footer />
+    </>
   );
 }

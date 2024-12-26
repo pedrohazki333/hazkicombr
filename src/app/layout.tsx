@@ -1,7 +1,8 @@
-// src/app/layout.tsx
+import './globals.css';
+
 export const metadata = {
-  title: "Meu Projeto com NextJS",
-  description: "Landing page com Framer Motion e TailwindCSS",
+  title: 'hazki',
+  description: 'Descrição da página',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
