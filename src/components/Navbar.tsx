@@ -20,10 +20,10 @@ export default function Navbar() {
             <a href="\about" className="text-white hover:text-gray-600 transition duration-500">
               Sobre
             </a>
-            <a href="#" className="text-white hover:text-gray-600 transition duration-500">
-              Serviços
+            <a href="\courses-and-services" className="text-white hover:text-gray-600 transition duration-500">
+              Cursos e Serviços
             </a>
-            <a href="#" className="text-white hover:text-gray-600 transition duration-500">
+            <a href="\contact" className="text-white hover:text-gray-600 transition duration-500">
               Contato
             </a>
           </div>
@@ -69,13 +69,13 @@ export default function Navbar() {
             Sobre
           </a>
           <a
-            href="#"
+            href="\courses-and-services"
             className="block px-3 py-2 rounded-md hover:bg-orange-300"
           >
-            Serviços
+            Cursos e Serviços
           </a>
           <a
-            href="#"
+            href="\contact"
             className="block px-3 py-2 rounded-md hover:bg-orange-300"
           >
             Contato

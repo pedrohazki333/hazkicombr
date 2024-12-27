@@ -50,7 +50,7 @@ export default function Hero() {
           className="lg:w-1/2 mt-8 lg:mt-0"
           initial={{ scale: 0.9, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
-          transition={{ duration: 1, delay: 1 }}
+          transition={{ duration: 1, delay: 0.6 }}
         >
           <img
             src="/hero-image.png"
