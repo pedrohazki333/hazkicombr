@@ -1,14 +1,28 @@
-import './globals.css';
+import "./globals.css";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 export const metadata = {
-  title: 'hazki',
-  description: 'Descrição da página',
+  title: "Hazki",
+  description: "Consultor do Mercado Digital",
+  icons: {
+    icon: "/favicon.ico", // Para navegadores que usam o ícone principal
+    apple: "/logo.png", // Para dispositivos Apple (opcional)
+  },
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Navbar />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }

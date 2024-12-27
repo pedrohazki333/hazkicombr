@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="bg-olive-700 text-white py-10">
+    <footer className="bg-orange-600 text-white py-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Logo e Descrição */}
@@ -100,7 +100,7 @@ export default function Footer() {
 
         {/* Copyright */}
         <div className="mt-8 border-t border-gray-400 pt-6 text-center text-gray-200">
-          © {new Date().getFullYear()} Minha Empresa. Todos os direitos
+          © {new Date().getFullYear()} Hazki. Todos os direitos
           reservados.
         </div>
       </div>

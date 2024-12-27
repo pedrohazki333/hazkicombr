@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <section className="bg-gradient-to-r from-olive-500 to-olive-700 text-white pt-24 pb-12">
+    <section className="bg-gradient-to-r from-orange-600 to-orange-500 text-white pt-24 pb-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center">
         {/* Texto */}
         <div className="lg:w-1/2 text-center lg:text-left">
@@ -14,7 +14,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            Transforme suas ideias em realidade
+            Transforme seu negócio digital ainda hoje!
           </motion.h1>
           <motion.p
             className="text-lg mb-6"
@@ -22,8 +22,10 @@ export default function Hero() {
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 0.4 }}
           >
-            Oferecemos soluções sob medida para atender às suas necessidades.
-            Faça parte da nossa jornada para criar algo incrível.
+            Escolha o caminho para o sucesso online: cursos para marketplaces e
+            criação de conteúdo, consultoria especializada para mercado digital
+            ou landing pages personalizadas que convertem. Faça parte dessa
+            transformação agora!
           </motion.p>
           <motion.div
             className="flex flex-col sm:flex-row sm:justify-center lg:justify-start items-center gap-4"
@@ -32,12 +34,14 @@ export default function Hero() {
             transition={{ duration: 1, delay: 0.8 }}
           >
             <a
-              href="#"
-              className="px-6 py-3 bg-white text-olive-700 font-semibold rounded-md hover:bg-gray-100"
+              href="#pricingCards"
+              className="px-6 py-3 bg-orange-700 text-white font-semibold rounded-md hover:bg-orange-800 transition duration-500"
             >
-              Saiba Mais
+              Adquirir acesso
             </a>
-            <span className="text-gray-300">ou entre em contato conosco</span>
+            <span className="text-gray-200">
+              Entre no mercado digital agora!
+            </span>
           </motion.div>
         </div>
 
